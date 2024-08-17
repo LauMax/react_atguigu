@@ -1,0 +1,9 @@
+{
+	"HTML Template":{
+		"prefix": "!!",
+		"body":[
+			"<!DOCTYPE html>\r<html>\r\t<head>\r\t<meta charset='UTF-8' />\r\t<title>Document</title>\r\t</head>\r\t<body>\r\t\t$1\r\t</body>\r</html>"
+		],
+		"description": "HTML template"
+	}
+}
