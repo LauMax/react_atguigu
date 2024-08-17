@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello_react</title>
+</head>
+
+<body>
+    <!--准备好一个容器  -->
+    <div id="test"></div>
+    <!--引入DOM核心库-->
+    <script type="text/javascript" src="../js/react.development.js"></script>
+    <!--引入react-dom, 用于支持react操作DOM-->
+    <script type="text/javascript" src="../js//react-dom.development.js"></script>
+    <!--引入babel, 用于将jsx转为js-->
+    <script type="text/javascript" src="../js/babel.min.js"></script>
+
+    <script type="text/javascript">
+        //创建一个Person类
+        class Person{
+            constructor(name, age){
+                //构造器中的this是谁？类的实例对象
+                this.name = name
+                this.age = age
+            }
+
+            // 一般方法
+            speak(){
+                console.log(`我叫${this}, 我年龄是${this.age}`);
+            }
+        }
+
+        class Student extends Person{
+            constructor(name, age, grade){
+                super(name,age);
+                this.grade = grade;
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
