@@ -20,13 +20,6 @@
 		],
 		"description": "Arrow Function"
 	},
-	"HTML Template":{
-		"prefix": "!!html",
-		"body":[
-			"<<!DOCTYPE html>\r<html>\r\t<head>\r\t<meta charset='UTF-8' />\r<title>Document</title>\r</head>\r<body>$1\r\r</body>\r</html>"
-		],
-		"description": "HTML template"
-	},
 	"document get element by id":{
 		"prefix": "did",
 		"body":[
